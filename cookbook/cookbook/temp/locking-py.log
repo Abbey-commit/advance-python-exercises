@@ -1,0 +1,123 @@
+[INFO] (MainThread) (1772738164) (create) waiting for lock
+[INFO] (MainThread) (1772738164) (create) acquired lock
+[INFO] (MainThread) (443421504) (create) waiting for lock
+[INFO] (MainThread) (443421504) (create) acquired lock
+[INFO] (MainThread) (1516501059) (create) waiting for lock
+[INFO] (MainThread) (1516501059) (create) acquired lock
+[INFO] (MainThread) (1516501059) (create) releasing lock
+[INFO] (MainThread) (1525064128) (create) waiting for lock
+[INFO] (MainThread) (1525064128) (create) acquired lock
+[INFO] (MainThread) (1525064128) (create) releasing lock
+[INFO] (MainThread) (1525064128) (create) waiting for lock
+[INFO] (MainThread) (1525064128) (create) acquired lock
+[INFO] (MainThread) (1525064128) (create) releasing lock
+[INFO] (MainThread) (1525064128) (create) waiting for lock
+[INFO] (MainThread) (1525064128) (create) acquired lock
+[INFO] (MainThread) (1525064128) (create) releasing lock
+[INFO] (MainThread) (1579626831) (create) waiting for lock
+[INFO] (MainThread) (1579626831) (create) acquired lock
+[INFO] (MainThread) (1579626831) (create) releasing lock
+[INFO] (MainThread) (1579626831) (create) waiting for lock
+[INFO] (MainThread) (1579626831) (create) acquired lock
+[INFO] (MainThread) (1579626831) (create) releasing lock
+[INFO] (MainThread) (1579626831) (create) waiting for lock
+[INFO] (MainThread) (1579626831) (create) acquired lock
+[INFO] (MainThread) (1579626831) (create) releasing lock
+[INFO] (MainThread) (1579626831) (create) waiting for lock
+[INFO] (MainThread) (1579626831) (create) acquired lock
+[INFO] (MainThread) (1579626831) (create) releasing lock
+[INFO] (MainThread) (1579626831) (create) waiting for lock
+[INFO] (MainThread) (1579626831) (create) acquired lock
+[INFO] (MainThread) (1579626831) (create) releasing lock
+[INFO] (MainThread) (1579626831) (create) waiting for lock
+[INFO] (MainThread) (1579626831) (create) acquired lock
+[INFO] (MainThread) (1579626831) (create) releasing lock
+[INFO] (MainThread) (1579626831) (create) waiting for lock
+[INFO] (MainThread) (1579626831) (create) acquired lock
+[INFO] (MainThread) (1579626831) (create) releasing lock
+[INFO] (MainThread) (1579626831) (create) waiting for lock
+[INFO] (MainThread) (1579626831) (create) acquired lock
+[INFO] (MainThread) (1579626831) (create) releasing lock
+[INFO] (Buyer-carlos) (1579626831) (all) waiting for lock
+[INFO] (Buyer-carlos) (1579626831) (all) acquired lock
+[INFO] (Buyer-carlos) (1579626831) (all) releasing lock
+[INFO] (Buyer-juan) (1579626831) (all) waiting for lock
+[INFO] (Buyer-juan) (1579626831) (all) acquired lock
+[INFO] (Buyer-juan) (1579626831) (all) releasing lock
+[INFO] (Buyer-make) (1579626831) (all) waiting for lock
+[INFO] (Buyer-make) (1579626831) (all) acquired lock
+[INFO] (Buyer-make) (1579626831) (all) releasing lock
+[INFO] (Buyer-sarah) (1579626831) (all) waiting for lock
+[INFO] (Buyer-sarah) (1579626831) (all) acquired lock
+[INFO] (Buyer-sarah) (1579626831) (all) releasing lock
+[INFO] (MainThread) (442286462) (create) waiting for lock
+[INFO] (MainThread) (442286462) (create) acquired lock
+[INFO] (MainThread) (442286462) (create) releasing lock
+[INFO] (MainThread) (442286462) (create) waiting for lock
+[INFO] (MainThread) (442286462) (create) acquired lock
+[INFO] (MainThread) (442286462) (create) releasing lock
+[INFO] (MainThread) (442286462) (create) waiting for lock
+[INFO] (MainThread) (442286462) (create) acquired lock
+[INFO] (MainThread) (442286462) (create) releasing lock
+[INFO] (MainThread) (442286462) (create) waiting for lock
+[INFO] (MainThread) (442286462) (create) acquired lock
+[INFO] (MainThread) (442286462) (create) releasing lock
+[INFO] (Buyer-carlos) (442286462) (all) waiting for lock
+[INFO] (Buyer-carlos) (442286462) (all) acquired lock
+[INFO] (Buyer-carlos) (442286462) (all) releasing lock
+[INFO] (Buyer-juan) (442286462) (all) waiting for lock
+[INFO] (Buyer-juan) (442286462) (all) acquired lock
+[INFO] (Buyer-juan) (442286462) (all) releasing lock
+[INFO] (Buyer-make) (442286462) (all) waiting for lock
+[INFO] (Buyer-make) (442286462) (all) acquired lock
+[INFO] (Buyer-make) (442286462) (all) releasing lock
+[INFO] (Buyer-sarah) (442286462) (all) waiting for lock
+[INFO] (Buyer-sarah) (442286462) (all) acquired lock
+[INFO] (Buyer-sarah) (442286462) (all) releasing lock
+[INFO] (MainThread) (442286462) (all) waiting for lock
+[INFO] (MainThread) (442286462) (all) acquired lock
+[INFO] (MainThread) (442286462) (all) releasing lock
+[INFO] (MainThread) (868647642) (create) waiting for lock
+[INFO] (MainThread) (868647642) (create) acquired lock
+[INFO] (MainThread) (868647642) (create) releasing lock
+[INFO] (MainThread) (868647642) (create) waiting for lock
+[INFO] (MainThread) (868647642) (create) acquired lock
+[INFO] (MainThread) (868647642) (create) releasing lock
+[INFO] (MainThread) (868647642) (create) waiting for lock
+[INFO] (MainThread) (868647642) (create) acquired lock
+[INFO] (MainThread) (868647642) (create) releasing lock
+[INFO] (Buyer-carlos) (868647642) (all) waiting for lock
+[INFO] (Buyer-carlos) (868647642) (all) acquired lock
+[INFO] (Buyer-carlos) (868647642) (all) releasing lock
+[INFO] (Buyer-juan) (868647642) (all) waiting for lock
+[INFO] (Buyer-juan) (868647642) (all) acquired lock
+[INFO] (Buyer-juan) (868647642) (all) releasing lock
+[INFO] (Buyer-make) (868647642) (all) waiting for lock
+[INFO] (Buyer-make) (868647642) (all) acquired lock
+[INFO] (Buyer-make) (868647642) (all) releasing lock
+[INFO] (Buyer-sarah) (868647642) (all) waiting for lock
+[INFO] (Buyer-sarah) (868647642) (all) acquired lock
+[INFO] (Buyer-sarah) (868647642) (all) releasing lock
+[INFO] (MainThread) (868647642) (all) waiting for lock
+[INFO] (MainThread) (868647642) (all) acquired lock
+[INFO] (MainThread) (868647642) (all) releasing lock
+[INFO] (Auditor-product_id=1) (868647642) (all) waiting for lock
+[INFO] (Auditor-product_id=1) (868647642) (all) acquired lock
+[INFO] (Auditor-product_id=1) (868647642) (all) releasing lock
+[INFO] (Auditor-product_id=1) (868647642) (run) None
+[INFO] (Auditor-product_id=1) (868647642) (all) waiting for lock
+[INFO] (Auditor-product_id=1) (868647642) (all) acquired lock
+[INFO] (Auditor-product_id=1) (868647642) (all) waiting for lock
+[INFO] (Auditor-product_id=1) (868647642) (all) releasing lock
+[INFO] (Auditor-product_id=1) (868647642) (run) None
+[INFO] (Auditor-product_id=1) (868647642) (all) acquired lock
+[INFO] (Auditor-product_id=1) (868647642) (all) releasing lock
+[INFO] (Auditor-product_id=1) (868647642) (run) None
+[INFO] (Thread-5) (1626422291) (my_method) data does not have a value yet
+[INFO] (Thread-5) (1626422291) (my_method) {'process_id': 219}
+[INFO] (Thread-6) (1626422291) (my_method) data does not have a value yet
+[INFO] (Thread-6) (1626422291) (my_method) {'process_id': 302}
+[INFO] (Thread-7) (1626422291) (my_method) data does not have a value yet
+[INFO] (Thread-7) (1626422291) (my_method) {'process_id': 242}
+[INFO] (Thread-8) (1626422291) (my_method) data does not have a value yet
+[INFO] (Thread-8) (1626422291) (my_method) {'process_id': 80}

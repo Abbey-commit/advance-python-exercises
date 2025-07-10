@@ -1,0 +1,24 @@
+{% load static %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'riddles/main.css' %}" />
+
+<div class="container">
+    <h1>Reflective Prompts for Your Journey</h1>
+    {% if message %}
+        <p class="message">{{ message }}</p>
+    {% endif %}
+    {% if latest_riddles %}
+        <ul class="prompt-list">
+            {% for riddle in latest_riddles %}
+                <li>
+                    <a href="{% url 'riddles:detail' riddle.id %}" class="prompt-link">
+                        {{ riddle.text }}
+                    </a>
+                    <span class="prompt-date">{{ riddle.created_at|date:"F j, Y" }}</span>
+                </li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>No prompts are available right now. Check back soon!</p>
+    {% endif %}
+</div>

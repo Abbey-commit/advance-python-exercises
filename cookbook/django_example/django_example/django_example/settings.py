@@ -45,4 +45,7 @@ TEMPLATES = [
         },
     },
 ]
-STATIC_URL = 'http://127.0.0.1:8000/static/'  # Added to serve static files
+STATIC_URL = '/static/'
+STATICFILES_DIRS = [
+    BASE_DIR / 'riddles' / 'static',
+]

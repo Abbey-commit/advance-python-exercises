@@ -1,0 +1,25 @@
+{% load static %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'riddles/main.css' %}" />
+
+<div class="container">
+    <h1>{{ riddle.text }}</h1>
+    <p class="prompt-info">Reflect on this prompt and choose a response below.</p>
+    {% if error_message %}
+        <p class="error">{{ error_message }}</p>
+    {% endif %}
+    <form action="{% url 'riddles:answer' riddle.id %}" method="post" class="answer-form">
+        {% csrf_token %}
+        <fieldset>
+            <legend>Your Response</legend>
+            {% for option in riddle.option_set.all %}
+                <div class="option">
+                    <input type="radio" name="option" id="option{{ forloop.counter }}" value="{{ option.id }}" required />
+                    <label for="option{{ forloop.counter }}">{{ option.text }}</label>
+                </div>
+            {% endfor %}
+        </fieldset>
+        <input type="submit" value="Submit Response" class="btn" />
+    </form>
+    <a href="{% url 'riddles:index' %}" class="btn btn-secondary">Back to Prompts</a>
+</div>

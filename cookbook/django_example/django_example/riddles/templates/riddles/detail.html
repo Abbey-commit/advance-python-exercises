@@ -1,0 +1,11 @@
+{% load static %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'riddles/main.css' %}" />
+
+<div class="container">
+    <h1>Reflective Prompt</h1>
+    <p class="prompt-text">{{ riddle.text }}</p>
+    <p class="prompt-info">Added on {{ riddle.created_at|date:"F j, Y" }}</p>
+    <a href="{% url 'riddles:answer' riddle.id %}" class="btn">Share Your Response</a>
+    <a href="{% url 'riddles:index' %}" class="btn btn-secondary">Back to Prompts</a>
+</div>

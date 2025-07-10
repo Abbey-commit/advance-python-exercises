@@ -1,0 +1,15 @@
+<h1>Riddles</h1>
+
+{% for riddle in riddles %}
+    <div>
+        <p><strong>{{ riddle.question }}</strong></p>
+        <form method="post" action="{% url 'riddle_detail' riddle.id %}">
+            {% csrl;_token %}
+            <label for=""answe_{{ riddle.id }}>
+                Your answer
+            </label><br>
+            <input type="text" name="answer" id="answe_{{ riddle.id }}" required>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+{% endfor %}

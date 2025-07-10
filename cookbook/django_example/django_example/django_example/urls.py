@@ -1,7 +1,9 @@
-from django.conf.urls import include, url
+from django.urls import include, path
 from django.contrib import admin
+from riddles import views  # Import riddles views for the root URL
 
 urlpatterns = [
-    url(r'^riddles/', include('riddles.urls'), name="riddles"),
-    url(r'^admin/', admin.site.urls),
+    path('admin/', admin.site.urls),
+    path('riddles/', include('riddles.urls')),
+    path('', views.index, name='home'),  # Added root URL to riddles index
 ]

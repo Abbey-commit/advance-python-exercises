@@ -1,0 +1,22 @@
+<h2>Riddle: {{ riddle.question }}</h2>
+
+{% if error_message %}
+<p style="color: red;">{{ error_message }}</p>
+{% endif %}
+
+<form method="post" action="{% url 'riddle_details' riddle.id %}">
+    {% csrf_token %}
+    <label fo="answer">Your answer</label><br>
+    <input type="text" name="answer" id="answer" required>
+    <button type="submit">Submit</button>
+</form>
+
+{ if option %}
+    {% if option.correct %}
+        <p style="color:green;">Correct! The answer is indeed "{{ riddle.answer }}".</p>
+    {% else %}
+        <p style="color:red;">Incorrect! The correct answer is "{{ riddle.answer }}".</p>
+    {% endif %}
+{% else %}
+
+<a href="{ % url 'riddle_list' % }">Back to Riddles</a>

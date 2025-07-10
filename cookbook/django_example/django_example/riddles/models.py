@@ -1,21 +1,17 @@
 from django.db import models
-
+from django.utils import timezone
 
 class Riddle(models.Model):
-    riddle_text = models.CharField(max_length=255)
-    pub_date = models.DateTimeField('date published')
+    text = models.CharField(max_length=200)
+    created_at = models.DateTimeField(auto_now_add=True)
 
-    def __str__(self): return self.riddle_text
-
+    def __str__(self):
+        return self.text
 
 class Option(models.Model):
     riddle = models.ForeignKey(Riddle, on_delete=models.CASCADE)
-    text = models.CharField(max_length=255)
-    correct = models.BooleanField(default=False)
+    text = models.CharField(max_length=100)
+    is_correct = models.BooleanField(default=False)
 
     def __str__(self):
-        if self.correct:
-            value = "Correct"
-        else:
-            value = "Wrong"
-        return "{} - ({}) [{}]".format(self.text, value, self.riddle.riddle_text)
+        return self.text

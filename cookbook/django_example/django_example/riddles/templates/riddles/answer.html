@@ -5,6 +5,9 @@
 <div class="container">
     <h1>{{ riddle.text }}</h1>
     <p class="prompt-info">Reflect on this prompt and choose a response below.</p>
+    {% if success_message %}
+        <p class="success">{{ success_message }}</p>
+    {% endif %}
     {% if error_message %}
         <p class="error">{{ error_message }}</p>
     {% endif %}

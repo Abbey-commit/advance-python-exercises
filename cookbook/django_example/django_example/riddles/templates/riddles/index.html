@@ -11,7 +11,7 @@
         <ul class="prompt-list">
             {% for riddle in latest_riddles %}
                 <li>
-                    <a href="{% url 'riddles:detail' riddle.id %}" class="prompt-link">
+                    <a href="{% url 'riddles:answer' riddle.id %}" class="prompt-link">
                         {{ riddle.text }}
                     </a>
                     <span class="prompt-date">{{ riddle.created_at|date:"F j, Y" }}</span>
